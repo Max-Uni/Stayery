@@ -7,7 +7,7 @@ body {
     padding: 0;
     min-height: 100vh;
     background-image: url('Stayery_4.jpg'); /* Pfad zum Hintergrundbild */
-    background-size: auto; /* Bildgröße anpassen, um den gesamten Bildschirm zu bedecken */
+    background-size: cover; /* Bildgröße anpassen, um den gesamten Bildschirm zu bedecken */
     background-repeat: no-repeat; /* Bildwiederholung verhindern */
     background-position: center; /* Bild zentrieren */
     background-attachment: fixed; /* Hintergrundbild bleibt fest */
@@ -171,7 +171,7 @@ section {
     border-radius: 10px; /* Abgerundete Ecken */
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start; /* Bilder und Text am oberen Rand ausrichten */
     padding: 1rem; /* Padding, um Platz innerhalb des Kastens zu schaffen */
     box-sizing: border-box; /* Padding wird in die Breite und Höhe einbezogen */
 }
@@ -179,7 +179,7 @@ section {
 .image-container {
     display: flex;
     justify-content: space-between; /* Abstand zwischen den Bildern */
-    align-items: center;
+    align-items: flex-start; /* Bilder und Text am oberen Rand ausrichten */
     gap: 1rem; /* Abstand zwischen den Bildern */
     width: 100%;
 }
@@ -198,10 +198,10 @@ section {
     border-radius: 4px; /* Abgerundete Ecken für die Bilder */
 }
 
-.image-item input {
+.image-item input, .image-item b {
     padding: 0.5rem;
     font-size: 1rem;
-    width: 100%; /* Textfeld füllt die Breite des Containers aus */
+    width: 100%; /* Textfeld und Text füllt die Breite des Containers aus */
     text-align: center;
 }
 
