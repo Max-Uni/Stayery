@@ -165,6 +165,7 @@ section {
 #yellow-box {
     background-color: yellow; /* Gelber Hintergrund */
     width: 80%; /* Breite des Kastens */
+    height: 800px; /* Erhöht die Höhe des Kastens */
     margin: 2rem auto; /* Zentriert den Kasten horizontal und fügt vertikale Abstände hinzu */
     border-radius: 10px; /* Abgerundete Ecken */
     display: flex;
