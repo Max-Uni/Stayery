@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: black; /* Weißer Hintergrund für den gesamten Body */
+    background-color: white; /* Weißer Hintergrund für den gesamten Body */
 }
 
 #home {
@@ -207,7 +207,7 @@ section {
 }
 
 footer {
-    background-color: black;
+    background-color: white;
     color: yellow;
     text-align: center;
     padding: 1rem;
