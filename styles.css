@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.4); /* Sehr durchsichtige schwarze Farbe */
+    background-color: rgba(0, 0, 0, 0.3); /* Sehr durchsichtige schwarze Farbe */
     color: white;
     padding: 1rem;
     display: flex; /* Flexbox-Layout */
@@ -125,12 +125,15 @@ button {
 }
 
 .field select, .field input, .field button {
-    padding: 0.5rem;
-    font-size: 1rem;
+    padding: 1rem; /* Vergrößert das Padding */
+    font-size: 1.2rem; /* Vergrößert die Schriftgröße */
 }
 
 main {
     flex: 1;
+    display: flex;
+    justify-content: center; /* Zentriert den Inhalt horizontal */
+    align-items: center; /* Zentriert den Inhalt vertikal */
     padding: 1rem;
 }
 
