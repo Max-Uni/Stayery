@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: rgba(255, 255, 0, 0.2); /* Sehr durchsichtige gelbe Farbe */
+    background-color: rgba(255, 255, 255, 0.2); /* Sehr durchsichtige gelbe Farbe */
     color: White; /* Schriftfarbe auf gelb gesetzt */
     padding: 1rem;
     display: flex; /* Flexbox-Layout */
@@ -39,7 +39,7 @@ header nav ul {
 header nav ul li {
     display: inline;
     color: yellow; /* Schriftfarbe auf gelb gesetzt */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
 }
 
 .header-container {
@@ -53,12 +53,12 @@ header h1 {
     text-align: left; /* Links ausgerichtet */
     flex: 1; /* Nimmt den verfügbaren Platz ein */
     color: yellow; /* Schriftfarbe auf gelb gesetzt */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
 }
 
 header nav ul li a {
     color: yellow; /* Links im Header auf gelb gesetzt */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
+    /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
     text-decoration: none;
     font-size: 1.2rem;
 }
