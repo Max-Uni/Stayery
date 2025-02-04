@@ -7,7 +7,7 @@ body {
     padding: 0;
     min-height: 100vh;
     background-image: url('Stayery_4.jpg'); /* Pfad zum Hintergrundbild */
-    background-size: cover; /* Bildgröße anpassen, um den gesamten Bildschirm zu bedecken */
+    background-size: auto; /* Bildgröße anpassen, um den gesamten Bildschirm zu bedecken */
     background-repeat: no-repeat; /* Bildwiederholung verhindern */
     background-position: center; /* Bild zentrieren */
     background-attachment: fixed; /* Hintergrundbild bleibt fest */
