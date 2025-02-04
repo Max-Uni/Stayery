@@ -212,3 +212,17 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+
+#open {
+    background-color: yellow; /* Gelber Hintergrund */
+    width: 100%; /* Breite des Kastens */
+    height: 150px; /* Höhe des Kastens */
+    margin: 0rem auto; /* Zentriert den Kasten horizontal und fügt vertikale Abstände hinzu */
+    /*border-radius: 10px; /* Abgerundete Ecken */
+    display: flex;
+    justify-content: center;
+    /*align-items: flex-start; /* Bilder und Text am oberen Rand ausrichten */
+    padding: 1rem; /* Padding, um Platz innerhalb des Kastens zu schaffen */
+    box-sizing: border-box; /* Padding wird in die Breite und Höhe einbezogen */
+}
