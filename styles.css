@@ -8,29 +8,24 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url('Stayery_4.jpg'); /* Pfad zum Hintergrundbild */
+    background-image: url('Stayery/Stayery_4.jpg'); /* Pfad zum Hintergrundbild */
     background-size: cover; /* Bildgröße anpassen, um den gesamten Bildschirm zu bedecken */
     background-repeat: no-repeat; /* Bildwiederholung verhindern */
     background-position: center center; /* Bild zentrieren */
 }
 
 header {
-    background-color: rgba(255, 255, 0, 0.08); /* Sehr durchsichtige gelbe Farbe */
-    color: black; /* Schriftfarbe auf schwarz gesetzt */
+    background-color: rgba(255, 255, 0, 0.01); /* Sehr durchsichtige gelbe Farbe */
+    color: white; /* Schriftfarbe auf weiß gesetzt */
     padding: 1rem;
-    text-align: center;
-}
-
-.header-container {
     display: flex; /* Flexbox-Layout */
     justify-content: space-between; /* Platz zwischen den Elementen */
     align-items: center; /* Zentrieren der Elemente vertikal */
-    padding: 0 1rem; /* Abstand von den Seiten */
 }
 
 header h1 {
-    flex: 1; /* Flexbox-Element */
-    text-align: center; /* Zentrieren des Titels */
+    margin: 0; /* Entfernt den Standardabstand */
+    text-align: left; /* Links ausgerichtet */
 }
 
 header nav {
@@ -52,7 +47,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: black; /* Links im Header auf schwarz gesetzt */
+    color: white; /* Links im Header auf weiß gesetzt */
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -69,7 +64,7 @@ button {
 }
 
 .dropbtn {
-    background-color: #4CAF50;
+    background-color: rgba(255, 255, 0, 0.2); /* Durchsichtige gelbe Farbe */
     color: white;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -102,7 +97,7 @@ button {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: rgba(255, 255, 0, 0.4); /* Etwas weniger durchsichtiges Gelb bei Hover */
 }
 
 main {
