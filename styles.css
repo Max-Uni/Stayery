@@ -53,6 +53,7 @@ header h1 {
     text-align: left; /* Links ausgerichtet */
     flex: 1; /* Nimmt den verfügbaren Platz ein */
     color: yellow; /* Schriftfarbe auf gelb gesetzt */
+    font-size: 3rem;
     /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
 }
 
