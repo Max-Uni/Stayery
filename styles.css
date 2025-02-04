@@ -15,7 +15,7 @@ body {
     background-repeat: no-repeat; /* Bildwiederholung verhindern */
     background-position: top; /* Bild zentrieren */
     background-attachment: local; /* Hintergrundbild bleibt fixiert */
-    height: 120vh; /* Setzt die Höhe der Sektion auf die volle Höhe des Bildschirms */
+    height: 100vh; /* Setzt die Höhe der Sektion auf die volle Höhe des Bildschirms */
     display: flex;
     justify-content: center;
     align-items: center;
