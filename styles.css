@@ -155,7 +155,7 @@ main {
     align-items: center; /* Zentriert den Inhalt horizontal */
     padding: 1rem;
     background-color: yellow; /* Weißer Hintergrund für alle nachfolgenden Elemente */
-    margin-top: 65px; /* Platz für den fixierten Header schaffen */
+    margin-top: 150px; /* Platz für den fixierten Header schaffen */
 }
 
 section {
