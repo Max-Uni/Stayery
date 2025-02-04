@@ -21,9 +21,21 @@ header {
     text-align: center;
 }
 
+.header-container {
+    display: flex; /* Flexbox-Layout */
+    justify-content: space-between; /* Platz zwischen den Elementen */
+    align-items: center; /* Zentrieren der Elemente vertikal */
+    padding: 0 1rem; /* Abstand von den Seiten */
+}
+
+header h1 {
+    flex: 1; /* Flexbox-Element */
+    text-align: center; /* Zentrieren des Titels */
+}
+
 header nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     gap: 1rem;
 }
