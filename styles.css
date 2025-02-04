@@ -11,7 +11,7 @@ body {
 
 #home {
     background-image: url('Stayery_4.jpg'); /* Pfad zum Hintergrundbild */
-    background-size: cover; /* Bildgröße anpassen, um den gesamten Bereich zu bedecken */
+    background-size: auto; /* Bildgröße anpassen, um den gesamten Bereich zu bedecken */
     background-repeat: no-repeat; /* Bildwiederholung verhindern */
     background-position: center; /* Bild zentrieren */
     height: 100vh; /* Setzt die Höhe der Sektion auf die volle Höhe des Bildschirms */
@@ -187,7 +187,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem; /* Abstand zwischen Bild und Textfeld */
+    gap: 2rem; /* Abstand zwischen Bild und Textfeld */
     width: 30%; /* Jedes Bild nimmt etwa 1/3 der Breite des Containers ein */
 }
 
