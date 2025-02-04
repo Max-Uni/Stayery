@@ -1,23 +1,24 @@
 /* styles.css */
 
-/* Entferne das Hintergrundbild vom Body-Element */
+/* Hintergrundbild für das gesamte Body-Element */
 body {
     font-family: Calibri, sans-serif, Arial;
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: white; /* Weißer Hintergrund für den gesamten Body */
-}
-
-#home {
     background-image: url('Stayery_4.jpg'); /* Pfad zum Hintergrundbild */
     background-size: cover; /* Bildgröße anpassen, um den gesamten Bildschirm zu bedecken */
     background-repeat: no-repeat; /* Bildwiederholung verhindern */
-    background-position: top left; /* Bild in der oberen linken Ecke starten */
+    background-position: center; /* Bild zentrieren */
+    background-attachment: fixed; /* Hintergrundbild bleibt fest */
+}
+
+#home {
     height: 100vh; /* Setzt die Höhe der Sektion auf die volle Höhe des Bildschirms */
     display: flex;
     justify-content: center;
     align-items: center;
+    background: rgba(255, 255, 255, 0.6); /* Halbtransparenter weißer Hintergrund als Overlay */
 }
 
 header {
