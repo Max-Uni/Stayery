@@ -26,13 +26,14 @@ header nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 header nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    gap: 1rem;
+    margin: 0;
+    gap: 2rem;
 }
 
 header nav ul li {
