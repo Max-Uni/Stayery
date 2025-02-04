@@ -165,7 +165,7 @@ section {
 #yellow-box {
     background-color: yellow; /* Gelber Hintergrund */
     width: 80%; /* Breite des Kastens */
-    height: 800px; /* Erhöht die Höhe des Kastens */
+    height: 600px; /* Erhöht die Höhe des Kastens */
     margin: 2rem auto; /* Zentriert den Kasten horizontal und fügt vertikale Abstände hinzu */
     border-radius: 10px; /* Abgerundete Ecken */
     display: flex;
@@ -187,8 +187,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.5rem; /* Abstand zwischen Bild und Textfeld */
-    width: 25%; /* Jedes Bild nimmt etwa 1/4 der Breite des Containers ein */
+    gap: 1rem; /* Abstand zwischen Bild und Textfeld */
+    width: 30%; /* Jedes Bild nimmt etwa 1/4 der Breite des Containers ein */
 }
 
 .image-item img {
