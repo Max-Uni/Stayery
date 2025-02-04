@@ -182,7 +182,7 @@ section {
     align-items: flex-start; /* Bilder und Text am oberen Rand ausrichten */
     gap: 1rem; /* Abstand zwischen den Bildern */
     width: 100%;
-    margin-top: 75px; /* Startet die Bilder 100px tiefer */
+    margin-top: 65px; /* Startet die Bilder 100px tiefer */
 }
 
 .image-item {
