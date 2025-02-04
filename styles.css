@@ -50,7 +50,7 @@ header nav ul li {
 
 header h1 {
     margin: 0; /* Entfernt den Standardabstand */
-    margin-left: 4rem; /* Fügt einen Abstand von 2rem vom linken Rand hinzu */
+    margin-left: 2rem; /* Fügt einen Abstand von 2rem vom linken Rand hinzu */
     text-align: left; /* Links ausgerichtet */
     flex: 1; /* Nimmt den verfügbaren Platz ein */
     color: yellow; /* Schriftfarbe auf gelb gesetzt */
