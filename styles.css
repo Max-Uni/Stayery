@@ -59,7 +59,7 @@ header nav ul li {
 
 header h1 {
     margin: 0; /* Entfernt den Standardabstand */
-    margin-left: 2rem; /* Fügt einen Abstand von 2rem vom linken Rand hinzu */
+    margin-left: 4rem; /* Fügt einen Abstand von 2rem vom linken Rand hinzu */
     text-align: left; /* Links ausgerichtet */
     flex: 1; /* Nimmt den verfügbaren Platz ein */
     color: yellow; /* Schriftfarbe auf gelb gesetzt */
@@ -85,7 +85,7 @@ button {
 .dropbtn {
     background-color: rgba(255, 255, 0, 0.01); /* Durchsichtige gelbe Farbe */
     color: yellow;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
+    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
     padding: 0.5rem 1rem;
     font-size: 1rem;
     border: none;
