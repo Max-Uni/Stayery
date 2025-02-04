@@ -154,8 +154,8 @@ main {
     justify-content: flex-start; /* Startet den Inhalt von oben */
     align-items: center; /* Zentriert den Inhalt horizontal */
     padding: 1rem;
-    background-color: white; /* Weißer Hintergrund für alle nachfolgenden Elemente */
-    margin-top: 80px; /* Platz für den fixierten Header schaffen */
+    background-color: yellow; /* Weißer Hintergrund für alle nachfolgenden Elemente */
+    margin-top: 50px; /* Platz für den fixierten Header schaffen */
 }
 
 section {
