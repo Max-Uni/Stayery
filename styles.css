@@ -25,6 +25,10 @@ header {
     padding: 1rem;
     display: flex; /* Flexbox-Layout */
     align-items: center; /* Zentrieren der Elemente vertikal */
+    position: fixed; /* Fixiert den Header */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Stellt sicher, dass der Header über anderen Elementen liegt */
 }
 
 header nav {
@@ -150,6 +154,7 @@ main {
     align-items: center; /* Zentriert den Inhalt horizontal */
     padding: 1rem;
     background-color: white; /* Weißer Hintergrund für alle nachfolgenden Elemente */
+    margin-top: 80px; /* Platz für den fixierten Header schaffen */
 }
 
 section {
@@ -171,9 +176,10 @@ section {
 
 .image-container {
     display: flex;
-    justify-content: center; /* Zentriert die Bilder horizontal */
+    justify-content: space-between; /* Abstand zwischen den Bildern */
     align-items: center;
     gap: 1rem; /* Abstand zwischen den Bildern */
+    width: 100%;
 }
 
 .image-item {
@@ -181,10 +187,11 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 0.5rem; /* Abstand zwischen Bild und Textfeld */
+    width: 25%; /* Jedes Bild nimmt etwa 1/4 der Breite des Containers ein */
 }
 
 .image-item img {
-    max-width: 250px; /* Maximale Breite der Bilder */
+    width: 100%; /* Bild füllt die Breite des Containers aus */
     height: auto;
     border-radius: 4px; /* Abgerundete Ecken für die Bilder */
 }
@@ -192,7 +199,7 @@ section {
 .image-item input {
     padding: 0.5rem;
     font-size: 1rem;
-    width: 250px; /* Breite der Textfelder */
+    width: 100%; /* Textfeld füllt die Breite des Containers aus */
     text-align: center;
 }
 
