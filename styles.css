@@ -73,7 +73,7 @@ button {
 }
 
 .dropbtn {
-    background-color: rgba(255, 255, 0, 0.2); /* Durchsichtige gelbe Farbe */
+    background-color: rgba(255, 255, 0, 0.01); /* Durchsichtige gelbe Farbe */
     color: yellow;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
     padding: 0.5rem 1rem;
@@ -107,7 +107,7 @@ button {
 }
 
 .dropdown:hover .dropbtn {
-    background-color: rgba(255, 255, 0, 0.4); /* Etwas weniger durchsichtiges Gelb bei Hover */
+    background-color: rgba(255, 255, 0, 0.01); /* Etwas weniger durchsichtiges Gelb bei Hover */
 }
 
 .fields-container {
