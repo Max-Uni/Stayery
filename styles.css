@@ -121,8 +121,8 @@ section {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: yellow;
+    color: black;
     text-align: center;
     padding: 1rem;
 }
