@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-color: white; /* Weißer Hintergrund für den gesamten Body */
+    background-color: black; /* Weißer Hintergrund für den gesamten Body */
 }
 
 #home {
@@ -155,7 +155,7 @@ main {
     align-items: center; /* Zentriert den Inhalt horizontal */
     padding: 1rem;
     background-color: yellow; /* Weißer Hintergrund für alle nachfolgenden Elemente */
-    margin-top: 50px; /* Platz für den fixierten Header schaffen */
+    margin-top: 65px; /* Platz für den fixierten Header schaffen */
 }
 
 section {
@@ -207,8 +207,8 @@ section {
 }
 
 footer {
-    background-color: yellow;
-    color: black;
+    background-color: black;
+    color: yellow;
     text-align: center;
     padding: 1rem;
 }
