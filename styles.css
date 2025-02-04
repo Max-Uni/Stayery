@@ -50,7 +50,7 @@ header nav ul li {
 
 header h1 {
     margin: 0; /* Entfernt den Standardabstand */
-    margin-left: 2rem; /* Fügt einen Abstand von 2rem vom linken Rand hinzu */
+    margin-left: 4rem; /* Fügt einen Abstand von 2rem vom linken Rand hinzu */
     text-align: left; /* Links ausgerichtet */
     flex: 1; /* Nimmt den verfügbaren Platz ein */
     color: yellow; /* Schriftfarbe auf gelb gesetzt */
@@ -139,14 +139,26 @@ button {
 main {
     flex: 1;
     display: flex;
-    justify-content: center; /* Zentriert den Inhalt horizontal */
-    align-items: center; /* Zentriert den Inhalt vertikal */
+    flex-direction: column;
+    justify-content: flex-start; /* Startet den Inhalt von oben */
+    align-items: center; /* Zentriert den Inhalt horizontal */
     padding: 1rem;
 }
 
 section {
     width: 100%;
     margin-bottom: 2rem;
+}
+
+#yellow-box {
+    background-color: yellow; /* Gelber Hintergrund */
+    width: 80%; /* Breite des Kastens */
+    height: 300px; /* Höhe des Kastens */
+    margin: 2rem auto; /* Zentriert den Kasten horizontal und fügt vertikale Abstände hinzu */
+    border-radius: 10px; /* Abgerundete Ecken */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
