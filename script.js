@@ -1,10 +1,9 @@
 // script.js
 
 document.addEventListener('DOMContentLoaded', () => {
-    const button = document.getElementById('clickMeButton');
-    const message = document.getElementById('message');
+    const roomType = document.getElementById('roomType');
 
-    button.addEventListener('click', () => {
-        message.textContent = 'Button was clicked!';
+    roomType.addEventListener('change', () => {
+        alert(`Sie haben ${roomType.value} gewählt.`);
     });
 });
