@@ -5,8 +5,6 @@ body {
     font-family: Calibri, sans-serif, Arial;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
     background-image: url('Stayery_4.jpg'); /* Pfad zum Hintergrundbild */
     background-size: cover; /* Bildgröße anpassen, um den gesamten Bildschirm zu bedecken */
@@ -114,8 +112,9 @@ button {
 .fields-container {
     display: flex;
     justify-content: center; /* Zentriert den Container horizontal */
+    align-items: center; /* Zentriert den Container vertikal */
     gap: 1rem; /* Abstand zwischen den Feldern */
-    margin-top: 2rem;
+    height: 100%; /* Voller Höhe */
 }
 
 .field {
@@ -148,6 +147,13 @@ main {
 section {
     width: 100%;
     margin-bottom: 2rem;
+}
+
+#home {
+    height: 100vh; /* Setzt die Höhe der Sektion auf die volle Höhe des Bildschirms */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #yellow-box {
