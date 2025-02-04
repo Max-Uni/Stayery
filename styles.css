@@ -11,11 +11,11 @@ body {
 
 #home {
     background-image: url('Stayery_4.jpg'); /* Pfad zum Hintergrundbild */
-    background-size: contain; /* Bildgröße beibehalten, um den gesamten Bereich zu bedecken */
+    background-size: 100%; /* Bildgröße beibehalten, um den gesamten Bereich zu bedecken */
     background-repeat: no-repeat; /* Bildwiederholung verhindern */
-    background-position: center; /* Bild zentrieren */
+    background-position: top; /* Bild zentrieren */
     background-attachment: fixed; /* Hintergrundbild bleibt fixiert */
-    height: 100vh; /* Setzt die Höhe der Sektion auf die volle Höhe des Bildschirms */
+    height: 120vh; /* Setzt die Höhe der Sektion auf die volle Höhe des Bildschirms */
     display: flex;
     justify-content: center;
     align-items: center;
