@@ -118,7 +118,7 @@ button {
 }
 
 .field {
-    flex: 1;
+    flex: 0 1 200px; /* Flex-Basis auf 200px gesetzt, um die Breite zu reduzieren */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,7 +132,7 @@ button {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
     border: 1px solid #ccc; /* Rahmenfarbe */
     border-radius: 4px; /* Abgerundete Ecken */
-    width: 100%; /* Volle Breite */
+    width: 100%; /* Volle Breite der Felder */
 }
 
 main {
