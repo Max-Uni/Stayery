@@ -129,7 +129,7 @@ button {
     font-size: 1.2rem; /* Vergrößert die Schriftgröße */
     background-color: rgba(0, 0, 0, 0.3); /* Durchsichtige schwarze Farbe */
     color: yellow; /* Schriftfarbe auf gelb gesetzt */
-    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Weiße Umrandung */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
     border: 1px solid #ccc; /* Rahmenfarbe */
     border-radius: 4px; /* Abgerundete Ecken */
     width: 100%; /* Volle Breite */
