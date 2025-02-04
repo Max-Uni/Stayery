@@ -7,9 +7,9 @@ body {
     padding: 0;
     min-height: 100vh;
     background-image: url('Stayery_4.jpg'); /* Pfad zum Hintergrundbild */
-    background-size: cover; /* Bildgröße anpassen, um den gesamten Bildschirm zu bedecken */
+    background-size: auto; /* Originalgröße des Bildes beibehalten */
     background-repeat: no-repeat; /* Bildwiederholung verhindern */
-    background-position: center; /* Bild zentrieren */
+    background-position: top left; /* Bild in der oberen linken Ecke starten */
 }
 
 #home {
@@ -188,7 +188,7 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 1rem; /* Abstand zwischen Bild und Textfeld */
-    width: 30%; /* Jedes Bild nimmt etwa 1/4 der Breite des Containers ein */
+    width: 30%; /* Jedes Bild nimmt etwa 1/3 der Breite des Containers ein */
 }
 
 .image-item img {
