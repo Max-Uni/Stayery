@@ -22,6 +22,24 @@ header {
     align-items: center; /* Zentrieren der Elemente vertikal */
 }
 
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+}
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+header nav ul li {
+    display: inline;
+    color: yellow; /* Schriftfarbe auf gelb gesetzt */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Schwarze Umrandung */
+}
+
 .header-container {
     display: flex; /* Flexbox-Layout */
     justify-content: space-between; /* Platz zwischen den Elementen */
