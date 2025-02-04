@@ -14,7 +14,7 @@ body {
     background-size: 100%; /* Bildgröße beibehalten, um den gesamten Bereich zu bedecken */
     background-repeat: no-repeat; /* Bildwiederholung verhindern */
     background-position: top; /* Bild zentrieren */
-    background-attachment: fixed; /* Hintergrundbild bleibt fixiert */
+    background-attachment: local; /* Hintergrundbild bleibt fixiert */
     height: 120vh; /* Setzt die Höhe der Sektion auf die volle Höhe des Bildschirms */
     display: flex;
     justify-content: center;
@@ -182,7 +182,7 @@ section {
     align-items: flex-start; /* Bilder und Text am oberen Rand ausrichten */
     gap: 1rem; /* Abstand zwischen den Bildern */
     width: 100%;
-    margin-top: 150px; /* Startet die Bilder 100px tiefer */
+    margin-top: 75px; /* Startet die Bilder 100px tiefer */
 }
 
 .image-item {
