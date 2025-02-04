@@ -1,5 +1,6 @@
 /* styles.css */
 
+/* Hintergrundbild für das gesamte Body-Element */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,10 +8,14 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url('images/Stayery_4.jpg'); /* Pfad zum Hintergrundbild */
+    background-size: cover; /* Bildgröße anpassen, um den gesamten Bildschirm zu bedecken */
+    background-repeat: no-repeat; /* Bildwiederholung verhindern */
+    background-position: center center; /* Bild zentrieren */
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: rgba(76, 175, 80, 0.8); /* Transparenter Hintergrund für Lesbarkeit */
     color: white;
     padding: 1rem;
     text-align: center;
