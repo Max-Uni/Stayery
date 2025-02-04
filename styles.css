@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: rgba(255, 255, 0, 0.01); /* Sehr durchsichtige gelbe Farbe */
+    background-color: rgba(255, 255, 0, 0.08); /* Sehr durchsichtige gelbe Farbe */
     color: black; /* Schriftfarbe auf schwarz gesetzt */
     padding: 1rem;
     text-align: center;
