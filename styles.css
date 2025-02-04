@@ -6,10 +6,17 @@ body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
+}
+
+#home {
     background-image: url('Stayery_4.jpg'); /* Pfad zum Hintergrundbild */
-    background-size: cover; /* Bildgröße anpassen, um den gesamten Bildschirm zu bedecken */
+    background-size: auto; /* Originalgröße des Bildes beibehalten */
     background-repeat: no-repeat; /* Bildwiederholung verhindern */
     background-position: center center; /* Bild zentrieren */
+    height: 100vh; /* Setzt die Höhe der Sektion auf die volle Höhe des Bildschirms */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -142,6 +149,7 @@ main {
     justify-content: flex-start; /* Startet den Inhalt von oben */
     align-items: center; /* Zentriert den Inhalt horizontal */
     padding: 1rem;
+    background-color: white; /* Weißer Hintergrund für alle nachfolgenden Elemente */
 }
 
 section {
@@ -149,17 +157,9 @@ section {
     margin-bottom: 2rem;
 }
 
-#home {
-    height: 100vh; /* Setzt die Höhe der Sektion auf die volle Höhe des Bildschirms */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 #yellow-box {
     background-color: yellow; /* Gelber Hintergrund */
     width: 80%; /* Breite des Kastens */
-    height: 300px; /* Höhe des Kastens */
     margin: 2rem auto; /* Zentriert den Kasten horizontal und fügt vertikale Abstände hinzu */
     border-radius: 10px; /* Abgerundete Ecken */
     display: flex;
