@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.4); /* Sehr durchsichtige schwarze Farbe */
+    background-color: rgba(0, 0, 0, 0.3); /* Sehr durchsichtige schwarze Farbe */
     color: white;
     padding: 1rem;
     display: flex; /* Flexbox-Layout */
@@ -127,7 +127,11 @@ button {
 .field select, .field input, .field button {
     padding: 1rem; /* Vergrößert das Padding */
     font-size: 1.2rem; /* Vergrößert die Schriftgröße */
-    width: 100%; /* Full width */
+    background-color: rgba(0, 0, 0, 0.3); /* Durchsichtige schwarze Farbe */
+    color: white; /* Schriftfarbe auf weiß gesetzt */
+    border: 1px solid #ccc; /* Rahmenfarbe */
+    border-radius: 4px; /* Abgerundete Ecken */
+    width: 100%; /* Volle Breite */
 }
 
 main {
