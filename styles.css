@@ -128,7 +128,8 @@ button {
     padding: 1rem; /* Vergrößert das Padding */
     font-size: 1.2rem; /* Vergrößert die Schriftgröße */
     background-color: rgba(0, 0, 0, 0.3); /* Durchsichtige schwarze Farbe */
-    color: white; /* Schriftfarbe auf weiß gesetzt */
+    color: yellow; /* Schriftfarbe auf gelb gesetzt */
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; /* Weiße Umrandung */
     border: 1px solid #ccc; /* Rahmenfarbe */
     border-radius: 4px; /* Abgerundete Ecken */
     width: 100%; /* Volle Breite */
