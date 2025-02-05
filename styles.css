@@ -154,7 +154,7 @@ main {
     justify-content: flex-start; /* Startet den Inhalt von oben */
     align-items: center; /* Zentriert den Inhalt horizontal */
     padding: 1rem;
-    background-color: white; /* Weißer Hintergrund für alle nachfolgenden Elemente */
+    background-color: yellow; /* Weißer Hintergrund für alle nachfolgenden Elemente */
     margin-top: 90px; /* Platz für den fixierten Header schaffen */
 }
 
@@ -232,7 +232,7 @@ section {
 }
 
 #rooms .image-item img {
-    width: 300%; /* Bild füllt die Breite des Containers aus */
+    width: 40%; /* Bild füllt die Breite des Containers aus */
     height: 200px; /* Einheitliche Höhe der Bilder */
     object-fit: cover; /* Bild skalieren und zuschneiden, um die Höhe zu erfüllen */
     border-radius: 4px; /* Abgerundete Ecken für die Bilder */
