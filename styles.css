@@ -221,10 +221,20 @@ section {
 
 #rooms .image-container {
     justify-content: center; /* Zentriert die Bilder in der Mitte */
+    gap: 35px; /* Abstand von 35px zwischen den Bildern */
 }
 
 #rooms .image-item {
     width: 40%; /* Jedes Bild nimmt etwa 40% der Breite des Containers ein */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#rooms .image-item img {
+    width: 100%; /* Bild füllt die Breite des Containers aus */
+    height: auto;
+    border-radius: 4px; /* Abgerundete Ecken für die Bilder */
 }
 
 #contact {
