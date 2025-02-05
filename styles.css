@@ -232,8 +232,8 @@ section {
 }
 
 #rooms .image-item img {
-    width: 220px; /* Bild füllt die Breite des Containers aus */
-    height: 190px; /* Einheitliche Höhe der Bilder */
+    width: 400px; /* Bild füllt die Breite des Containers aus */
+    height: 250px; /* Einheitliche Höhe der Bilder */
     object-fit: cover; /* Bild skalieren und zuschneiden, um die Höhe zu erfüllen */
     border-radius: 4px; /* Abgerundete Ecken für die Bilder */
 }
