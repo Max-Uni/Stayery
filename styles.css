@@ -154,7 +154,7 @@ main {
     justify-content: flex-start; /* Startet den Inhalt von oben */
     align-items: center; /* Zentriert den Inhalt horizontal */
     padding: 1rem;
-    background-color: yellow; /* Weißer Hintergrund für alle nachfolgenden Elemente */
+    background-color: white; /* Weißer Hintergrund für alle nachfolgenden Elemente */
     margin-top: 90px; /* Platz für den fixierten Header schaffen */
 }
 
@@ -164,7 +164,7 @@ section {
 }
 
 #businesstrip {
-    background-color: white; /* Gelber Hintergrund */
+    background-color: white; /* Weißer Hintergrund */
     width: 80%; /* Breite des Kastens */
     height: 550px; /* Höhe des Kastens */
     margin: 0rem auto; /* Zentriert den Kasten horizontal und fügt vertikale Abstände hinzu */
@@ -182,7 +182,7 @@ section {
     align-items: flex-start; /* Bilder und Text am oberen Rand ausrichten */
     gap: 1rem; /* Abstand zwischen den Bildern */
     width: 100%;
-    margin-top: 65px; /* Startet die Bilder 100px tiefer */
+    margin-top: 65px; /* Startet die Bilder 65px tiefer */
 }
 
 .image-item {
@@ -206,23 +206,22 @@ section {
     text-align: center;
 }
 
+#rooms {
+    background-color: white; /* Weißer Hintergrund */
+    width: 80%; /* Breite des Kastens */
+    height: 550px; /* Höhe des Kastens */
+    margin: 0rem auto; /* Zentriert den Kasten horizontal und fügt vertikale Abstände hinzu */
+    border-radius: 10px; /* Abgerundete Ecken */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Bilder und Text am oberen Rand ausrichten */
+    padding: 1rem; /* Padding, um Platz innerhalb des Kastens zu schaffen */
+    box-sizing: border-box; /* Padding wird in die Breite und Höhe einbezogen */
+}
+
 footer {
     background-color: white;
     color: black;
     text-align: center;
     padding: 1rem;
-}
-
-
-#rooms {
-    background-color: yellow; /* Gelber Hintergrund */
-    width: 100%; /* Breite des Kastens */
-    height: 150px; /* Höhe des Kastens */
-    margin: 0rem auto; /* Zentriert den Kasten horizontal und fügt vertikale Abstände hinzu */
-    /*border-radius: 10px; /* Abgerundete Ecken */
-    display: flex;
-    justify-content: center;
-    /*align-items: flex-start; /* Bilder und Text am oberen Rand ausrichten */
-    padding: 1rem; /* Padding, um Platz innerhalb des Kastens zu schaffen */
-    box-sizing: border-box; /* Padding wird in die Breite und Höhe einbezogen */
 }
