@@ -209,7 +209,7 @@ section {
 #rooms {
     background-color: white; /* Weißer Hintergrund */
     width: 80%; /* Breite des Kastens */
-    height: 550px; /* Höhe des Kastens */
+    height: 525px; /* Höhe des Kastens */
     margin: 0 auto; /* Zentriert den Kasten horizontal */
     border-radius: 10px; /* Abgerundete Ecken */
     display: flex;
