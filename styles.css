@@ -225,14 +225,14 @@ section {
 }
 
 #rooms .image-item {
-    width: 30%; /* Jedes Bild nimmt etwa 30% der Breite des Containers ein */
+    width: 40%; /* Jedes Bild nimmt etwa 30% der Breite des Containers ein */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #rooms .image-item img {
-    width: 100%; /* Bild füllt die Breite des Containers aus */
+    width: 300%; /* Bild füllt die Breite des Containers aus */
     height: 200px; /* Einheitliche Höhe der Bilder */
     object-fit: cover; /* Bild skalieren und zuschneiden, um die Höhe zu erfüllen */
     border-radius: 4px; /* Abgerundete Ecken für die Bilder */
