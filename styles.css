@@ -221,7 +221,7 @@ section {
 
 #rooms .image-container {
     justify-content: center; /* Zentriert die Bilder in der Mitte */
-    gap: 35px; /* Abstand von 35px zwischen den Bildern */
+    gap: 45px; /* Abstand von 35px zwischen den Bildern */
 }
 
 #rooms .image-item {
@@ -232,8 +232,8 @@ section {
 }
 
 #rooms .image-item img {
-    width: 400px; /* Bild füllt die Breite des Containers aus */
-    height: 250px; /* Einheitliche Höhe der Bilder */
+    width: 475px; /* Bild füllt die Breite des Containers aus */
+    height: 300px; /* Einheitliche Höhe der Bilder */
     object-fit: cover; /* Bild skalieren und zuschneiden, um die Höhe zu erfüllen */
     border-radius: 4px; /* Abgerundete Ecken für die Bilder */
 }
