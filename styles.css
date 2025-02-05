@@ -233,7 +233,7 @@ section {
 
 #rooms .image-item img {
     width: 100%; /* Bild füllt die Breite des Containers aus */
-    height: auto;
+    height: 180px;
     border-radius: 4px; /* Abgerundete Ecken für die Bilder */
 }
 
