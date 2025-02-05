@@ -227,6 +227,19 @@ section {
     width: 40%; /* Jedes Bild nimmt etwa 40% der Breite des Containers ein */
 }
 
+#contact {
+    background-color: yellow; /* Weißer Hintergrund */
+    width: 100%; /* Breite des Kastens */
+    height: 250px; /* Höhe des Kastens */
+    margin: 0 auto; /* Zentriert den Kasten horizontal und fügt vertikale Abstände hinzu */
+    border-radius: 10px; /* Abgerundete Ecken */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Bilder und Text am oberen Rand ausrichten */
+    padding: 1rem; /* Padding, um Platz innerhalb des Kastens zu schaffen */
+    box-sizing: border-box; /* Padding wird in die Breite und Höhe einbezogen */
+}
+
 footer {
     background-color: white;
     color: black;
