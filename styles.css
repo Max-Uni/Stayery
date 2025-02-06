@@ -170,10 +170,16 @@ section {
     margin: 0 auto 100px; /* Zentriert den Kasten horizontal und fügt vertikale Abstände hinzu */
     border-radius: 10px; /* Abgerundete Ecken */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start; /* Bilder und Text am oberen Rand ausrichten */
     padding: 1rem; /* Padding, um Platz innerhalb des Kastens zu schaffen */
     box-sizing: border-box; /* Padding wird in die Breite und Höhe einbezogen */
+}
+
+#businesstrip h2 {
+    text-align: center; /* Zentriert die Überschrift */
+    margin-bottom: 1rem; /* Abstand unterhalb der Überschrift */
 }
 
 .image-container {
