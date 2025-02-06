@@ -179,7 +179,7 @@ section {
 
 #businesstrip h2 {
     text-align: center; /* Zentriert die Überschrift */
-    margin-bottom: 1rem; /* Abstand unterhalb der Überschrift */
+    margin-bottom: 0.5rem; /* Abstand unterhalb der Überschrift */
 }
 
 .image-container {
