@@ -177,7 +177,7 @@ section {
     box-sizing: border-box; /* Padding wird in die Breite und Höhe einbezogen */
 }
 
-#businesstrip h2 {
+h2 {
     text-align: center; /* Zentriert die Überschrift */
     margin-bottom: 0.5rem; /* Abstand unterhalb der Überschrift */
 }
@@ -219,10 +219,16 @@ section {
     margin: 0 auto; /* Zentriert den Kasten horizontal */
     border-radius: 10px; /* Abgerundete Ecken */
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: flex-start; /* Bilder und Text am oberen Rand ausrichten */
     padding: 1rem; /* Padding, um Platz innerhalb des Kastens zu schaffen */
     box-sizing: border-box; /* Padding wird in die Breite und Höhe einbezogen */
+}
+
+#rooms h2 {
+    text-align: center; /* Zentriert die Überschrift */
+    margin-bottom: 0.5rem; /* Abstand unterhalb der Überschrift */
 }
 
 #rooms .image-container {
